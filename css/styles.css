@@ -8,16 +8,20 @@
   margin-bottom: -1px !important;
   position: relative;
 }
+
 .tab-content {
   padding: 2rem;
 }
+
 .tab-pane {
   display: none;
 }
+
 .tab-pane.is-active {
   display: block;
   position: relative;
 }
+
 .is-active {
   display: initial;
 }
@@ -80,6 +84,7 @@
   position: relative;
   transition: all 0.2s ease-in-out;
 }
+
 .is-shady:hover {
   box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
 }
@@ -115,11 +120,13 @@
   line-height: 2.8;
   margin-bottom: 1rem;
 }
+
 .post {
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #E6EAEE;
 }
+
 .post:last-child {
   padding-bottom: 0;
   border-bottom: none;
